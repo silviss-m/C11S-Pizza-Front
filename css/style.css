@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+header {
+  background-color: #222222;
+  height: 100px;
+  color: #f3f3f3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  list-style-type: none;
+  padding-right: 20px;
+}
+
+h1 {
+  color: white;
+}
+
+.pizza {
+  color: #39b24a;
+}
+
+.front {
+  color: #fc200c;
+}
+
+main {
+  padding: 35px 19px;
+  display: flex;
+  justify-content: center;
+}
+
+.cajas {
+  display: flex;
+  justify-content: center;
+  width: 986px;
+  height: 350px;
+  gap: 5px;
+}
+
+.cajas .delivery {
+  width: 490px;
+  height: 350px;
+  position: relative;
+}
+
+.delivery img {
+  width: 490px;
+  height: 350px;
+  border-radius: 5px;
+  position: absolute;
+}
+
+h2 span {
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+}
+
+.delivery h2 {
+  color: #fc200c;
+  font-weight: 700;
+  font-size: 24px;
+  padding-top: 20px;
+  padding-left: 19.98px;
+  position: absolute;
+  z-index: 1;
+}
+
+.podio-pizzas {
+  width: 491px;
+  height: 350px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.podio-pizzas h2 {
+  color: #fc200c;
+  text-align: center;
+  padding-top: 26px;
+}
+
+.podio-pizzas .top-5-pizzas-e-imagen {
+  color: #222222;
+  font-weight: 700;
+  font-size: 16px;
+  width: 385px;
+  height: 250px;
+  display: flex;
+  gap: 101px;
+  justify-content: space-around;
+}
+
+.lista-pizzas {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.lista-pizzas h3 {
+  font-size: 20px;
+  padding-top: 58px;
+  padding-bottom: 10px;
+}
+
+.lista-pizzas ol {
+  padding-left: 20px;
+  gap: 10px;
+}
+
+.lista-pizzas img {
+  width: 92px;
+  height: 129px;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #222222;
+  height: 150px;
+  color: #f3f3f3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  position: relative;
+}
+
+footer div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 42px;
+  position: absolute;
+}
+
+footer nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style-type: none;
+  top: 19px;
+  padding-bottom: 19px;
+  left: 20px;
+  position: absolute;
+  height: 112px;
+  width: 78px;
+}
