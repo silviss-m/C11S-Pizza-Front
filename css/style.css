@@ -130,7 +130,7 @@ h2 span {
 }
 
 .lista-pizzas ol li {
-  gap: 10px;
+  padding-bottom: 10px;
 }
 
 .lista-pizzas h3 {
